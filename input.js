@@ -38,6 +38,15 @@ const setupInput = function(conn) {
     connection.write('Move: right');
   }
   
+  if (key === 'q') {
+    //console.log('Move: right');
+    connection.write('Say: GO UP');
+  }
+
+  if (key === 'e') {
+    //console.log('Move: right');
+    connection.write('Say: ItsE');
+  }
 
 
   })
